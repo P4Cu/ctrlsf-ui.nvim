@@ -1,0 +1,7 @@
+*ctrlsf-ui.nvim.txt*
+
+Simple plugin which adds an easy way to use CtrlSF via popup with lua table.
+
+Depends on CtrlSF and nui (for popup).
+
+Provides only one method: show()
