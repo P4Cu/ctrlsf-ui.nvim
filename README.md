@@ -2,6 +2,8 @@
 
 Neovim UI for great search and replace plugin: CtrlSF
 
+![demo](ctrlsf-ui.png)
+
 Configure using lazy.nvim (includes lazy loading):
 
 ```
