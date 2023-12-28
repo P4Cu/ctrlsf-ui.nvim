@@ -76,7 +76,7 @@ local function produce_command(opts)
 		table.insert(command, "'" .. opts.pattern .. "'")
 	else
 		table.insert(command, "''")
-		if opts.includedir then
+		if opts.includedir and opts.includedir[1] ~= "" then
 			vim.notify("CtrlSF: specifying dirs without pattern won't work.", vim.log.levels.WARN)
 		end
 	end
